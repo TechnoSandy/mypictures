@@ -91,3 +91,21 @@
             max-width: 100%;
         }
     }
+
+    /*Footer*/
+
+    #footer a {
+        /*        margin-left: 50%;*/
+        opacity: 0.5;
+        display: inline-block;
+        padding: 3px;
+        font-family: 'Kaushan Script', cursive;
+        text-align: center;
+        width: 100%;
+    }
+
+    #footer a:hover {
+        opacity: 1;
+        -webkit-transition: opacity 0.5s;
+        transition: opacity 0.5s;
+    }
