@@ -1,0 +1,238 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*----------------------------------------My CSS--------------------------------------------------*/
+
+
+/*Header*/
+
+#container {
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 0px;
+    box-shadow: 5px 5px 5px #888;
+}
+
+#header > li {
+    margin: 0px;
+    padding: 9px;
+    display: inline-block;
+    width: 18%;
+    text-align: center;
+    background-color: black;
+}
+
+#header > li a {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#header > li:hover {
+    background-color: red;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+
+/*Footer*/
+
+#footer li {
+    opacity: 0.5;
+    display: inline-block;
+    padding: 3px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#footer li:hover {
+    opacity: 1;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+#copyright {
+    vertical-align: middle;
+    float: none;
+}
+
+
+/*Content Middle*/
+
+#content {
+    /*   border: 1px solid red;*/
+}
+
+#content td {
+    padding: 0px;
+    margin: 0px;
+}
+
+#content td a {
+    opacity: 1;
+    padding: 0px;
+    margin: 4px;
+}
+
+#content td a:hover {
+    opacity: 0.5;
+    padding: 0px;
+    margin: 4px;
+}
+
+#content td img {
+    padding: 0px;
+    margin: 0px;
+}
+
+#developerName {
+    margin-bottom: 2%;
+    font-size: 80px;
+    color: red;
+    text-align: center;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-family: 'Kaushan Script', cursive;
+}
